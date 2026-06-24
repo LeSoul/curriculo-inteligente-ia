@@ -17,6 +17,12 @@ import { CheckCircle2, BookOpen, Briefcase, Users, TrendingUp, Shield } from "lu
  * - Inter Regular: Corpo
  */
 
+const KIWIFY_CHECKOUT_URL = "https://pay.kiwify.com.br/ccBNpy4";
+
+const handleKiwifyRedirect = () => {
+  window.location.href = KIWIFY_CHECKOUT_URL;
+};
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
@@ -78,6 +84,7 @@ export default function Home() {
             <Button 
               size="lg"
               className="cta-button text-lg px-12 py-6 font-semibold"
+              onClick={handleKiwifyRedirect}
             >
               QUERO COMEÇAR AGORA
             </Button>
@@ -383,6 +390,7 @@ export default function Home() {
           <Button 
             size="lg"
             className="cta-button text-2xl px-16 py-8 font-semibold"
+            onClick={handleKiwifyRedirect}
           >
             QUERO ACESSAR O PLANO AGORA
           </Button>
