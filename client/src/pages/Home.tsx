@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { useEffect } from "react";
 import { CheckCircle2, BookOpen, Briefcase, Users, TrendingUp, Shield } from "lucide-react";
 
 /**
@@ -25,14 +24,6 @@ const handleKiwifyRedirect = () => {
 };
 
 export default function Home() {
-  useEffect(() => {
-    // Redireciona automaticamente para o Kiwify quando a página é acessada via iframe (Kiwifi)
-    const isInIframe = window.self !== window.top;
-    if (isInIframe) {
-      window.location.href = KIWIFY_CHECKOUT_URL;
-    }
-  }, []);
-
   return (
     <div className="min-h-screen bg-white">
       {/* SEÇÃO 1: HERO SECTION */}
