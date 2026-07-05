@@ -42,9 +42,9 @@ export default function Home() {
           {/* Logo */}
           <div className="mb-12 flex justify-center">
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663309329653/5rSdxrHAYRVQ9GkJdPMPdS/brand-logo-bXLn2TfSv3YNqC7GwzBGJ7.webp" 
-              alt="Brand Logo" 
-              className="w-20 h-20"
+              src="/manus-storage/LogoSistemaEmpregoInteligentecomIA_2ded63f5.png" 
+              alt="Sistema Emprego Inteligente com IA" 
+              className="w-32 h-auto"
             />
           </div>
 
