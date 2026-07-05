@@ -49,9 +49,14 @@ export default function Home() {
           </div>
 
           {/* Main headline */}
-          <h1 className="text-5xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
-            <span className="text-green-400">O emprego mudou. A forma de conquistá-lo também.</span>
+          <h1 className="text-5xl md:text-6xl font-extrabold text-white mb-4 leading-tight">
+            Currículo Inteligente com IA
           </h1>
+          
+          {/* Subtitle */}
+          <p className="text-xl md:text-2xl text-green-400 mb-12 font-semibold">
+            O emprego mudou. A forma de conquistá-lo também.
+          </p>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-gray-200 mb-12 leading-relaxed max-w-3xl mx-auto">
@@ -189,27 +194,21 @@ export default function Home() {
             O que existe dentro do plano
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              "Módulo 1: Análise de Perfil",
-              "Módulo 2: Estrutura do Currículo",
-              "Módulo 3: Otimização com IA",
-              "Módulo 4: LinkedIn Profissional",
-              "Módulo 5: Busca Inteligente de Vagas",
-              "Módulo 6: Preparação para Entrevistas",
-              "Módulo 7: Entrevistas com IA",
-              "Módulo 8: Negociação Salarial",
-              "Módulo 9: Marca Pessoal",
-              "Módulo 10: Networking Estratégico",
-              "Módulo 11: Plano de Execução",
-              "Módulo 12: Acompanhamento de 30 Dias"
+              "Módulo 1 – Análise de Perfil e Planejamento Profissional: Descubra seus pontos fortes, identifique oportunidades e defina uma estratégia clara para sua recolocação.",
+              "Módulo 2 – Currículo Profissional de Alto Impacto: Aprenda a criar um currículo moderno, atrativo e alinhado às exigências do mercado.",
+              "Módulo 3 – Inteligência Artificial Aplicada ao Emprego: Utilize ferramentas de IA para otimizar seu currículo, cartas de apresentação e candidaturas.",
+              "Módulo 4 – LinkedIn e Busca Inteligente de Vagas: Construa um perfil profissional forte e aprenda a encontrar oportunidades de forma estratégica.",
+              "Módulo 5 – Entrevistas e Processo Seletivo: Prepare-se para entrevistas, responda com confiança e aumente suas chances de aprovação.",
+              "Módulo 6 – Plano de Execução da Recolocação: Transforme o conhecimento em ação com um método organizado para aplicar tudo o que aprendeu."
             ].map((module, idx) => (
               <div key={idx} className="premium-card">
-                <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                <div className="flex gap-4">
+                  <div className="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-1">
                     <span className="text-green-600 font-bold text-sm">{idx + 1}</span>
                   </div>
-                  <p className="text-gray-900 font-medium">{module}</p>
+                  <p className="text-gray-900 font-medium text-sm leading-relaxed">{module}</p>
                 </div>
               </div>
             ))}
