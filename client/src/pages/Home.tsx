@@ -248,7 +248,7 @@ export default function Home() {
             </div>
 
             <div className="inline-block px-6 py-3 rounded-full text-sm font-semibold" style={{ backgroundColor: '#FFF7D6', color: '#0F172A' }}>
-              Valor percebido muito superior ao preço do produto
+              Transforme conhecimento em ação com um plano prático de 30 dias.
             </div>
           </div>
         </div>
