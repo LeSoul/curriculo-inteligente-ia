@@ -50,8 +50,7 @@ export default function Home() {
 
           {/* Main headline */}
           <h1 className="text-5xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
-            PLANO DE EMERGÊNCIA<br />
-            <span className="text-green-400">CURRÍCULO INTELIGENTE COM IA</span>
+            <span className="text-green-400">O emprego mudou. A forma de conquistá-lo também.</span>
           </h1>
 
           {/* Subtitle */}
@@ -401,7 +400,7 @@ export default function Home() {
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto text-center">
           <p className="text-gray-400">
-            © 2024 Plano de Emergência. Todos os direitos reservados.
+            © 2026 Sistema Emprego Inteligente com IA. Todos os direitos reservados.
           </p>
         </div>
       </footer>
