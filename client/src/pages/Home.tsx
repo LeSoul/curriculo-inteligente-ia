@@ -42,7 +42,7 @@ export default function Home() {
           {/* Logo */}
           <div className="mb-12 flex justify-center">
             <img 
-              src="/manus-storage/LogoSistemaEmpregoInteligentecomIA_2ded63f5.png" 
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663309329653/uYMVpDdSDtIuwxjw.png" 
               alt="Sistema Emprego Inteligente com IA" 
               className="w-32 h-auto"
             />
